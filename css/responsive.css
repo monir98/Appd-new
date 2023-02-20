@@ -1,0 +1,148 @@
+@media (min-width:1200px) and (max-width: 1500px){
+    .usign-header::after {
+        left: 50%;
+    }
+    .timeline-box-right.timeline-box {
+        right: 50px;
+        position: absolute;
+        margin-top: 86px;
+    }
+    .timeline-box-left {
+        margin-left: -14px;
+    }
+	
+}
+@media (min-width:992px) and (max-width: 1200px){
+	.fewture-box-img {
+        margin-left: 0;
+    }
+	.fewture-box {
+        padding: 8px 20px;
+    }
+    .feature-icon i {
+        margin-top: 10px;
+    }
+    .usign-header::after {
+        left: 51%;
+    }
+    .counter-file h2 {
+        font-size: 20px;
+    }
+    .timeline-box:after {
+        width: 56%;
+        top: 55%;
+    }
+    .timeline-box-right.timeline-box:after {
+        left: -62%;
+        width: 63%;
+        top: 75px;
+    }
+
+}
+
+@media (min-width:768px) and (max-width: 991px){
+    .feature-area {
+        padding: 60px 0px;
+    }
+    .fewture-box {
+        margin-bottom: 30px;
+    }
+    .fewture-box-img {
+        margin-left: 0px;
+        margin-top: 17px;
+    }
+    .describe-img img {
+        margin-left: -10px;
+    }
+    .describe-contant {
+        margin-top: 0px;
+        margin-left: 94px;
+    }
+    .feature-herader p {
+        padding: 0px 105px;
+    }
+    .usign-header::before {
+        top: 53px;
+    }
+    .usign-header::after {
+        top: 46px;
+    }
+    .counter-file {
+        margin-bottom: 46px;
+    }
+    .pricing-area {
+        margin-top: 37px;
+    }
+    .prasonal-price-md {
+        margin-top: 28px;
+    }
+    .timeline-box:after {
+        width: 17%;
+        left: 98%;
+        top: 51%;
+    }
+    .timeline-box-right.timeline-box {
+        right: 14%;
+        margin-top: 15px;
+    }
+    .timeline-box-right.timeline-box::before {
+        left: -8px;
+    }
+    .timeline-box-right.timeline-box-right-after:after {
+        width: 48px;
+        left: -17%;
+        top: 82px;
+    }
+    .hero-contant h2 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 767px){
+	.hero-contant h2 {
+        font-size: 30px;
+    }
+    .hero-area {
+        height: 470px;
+    }
+	.feature-herader p {
+        padding: 0;
+    }
+    .describe-img {
+        text-align: center;
+    }
+    .timeline-box::before, .timeline-box::after, .timeline-border::before, .timeline-border::after, .timeline-border {
+        display: none;
+    }
+    .timeline-box {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .timeline-box-right.timeline-box {
+        position: inherit;
+        right: inherit;
+        margin-top: 0;
+    }
+    .timeline-t-margin {
+        margin-top: 0;
+    }
+}
+
+@media (min-width:480px) and (max-width: 767px){
+    .feature-area {
+        padding-bottom: 34px;
+    }
+	.feature-herader {
+        margin-bottom: 45px;
+        margin-top: -25px;
+    }
+	.fewture-box {
+        margin-bottom: 16px;
+    }
+    .describe-feature-are {
+        padding-top: 45px;
+    }
+}
+
+
+
