@@ -19,6 +19,24 @@ $('.apps-carousel').owlCarousel({
         }
     }
 });
+$('.team-slider').owlCarousel({
+    loop:true,
+    nav:false,
+    autoplay:true,
+
+    item:4,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:4
+        }
+    }
+});
 // Next Preview Icon
 $( ".owl-prev").html('<i class="fa screenshort-arow fa-chevron-left"></i>');
 $( ".owl-next").html('<i class="fa screenshort-arow fa-chevron-right"></i>');
