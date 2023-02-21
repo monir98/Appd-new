@@ -522,6 +522,15 @@ button.owl-dot {
     height: 100%;
 }
 /* -------client-area-end-------- */
+/* team-area-start */
+.team-area {
+    margin-top: 90px;
+}
+.team-area-p p {
+    font-size: 14px;
+    padding: 0px 269px;
+}
+/* team-area-end */
 /* ----------counter-up-area-start -----------*/
 .counter-up-area {
     margin-top: 90px;
