@@ -82,7 +82,7 @@
         top: 51%;
     }
     .timeline-box-right.timeline-box {
-        right: 14%;
+        right: 5%;
         margin-top: 15px;
     }
     .timeline-box-right.timeline-box::before {
@@ -93,6 +93,9 @@
         left: -17%;
         top: 82px;
     }
+    .timeline-box {
+        left: 0%;
+    }
     .hero-contant h2 {
         font-size: 40px;
     }
@@ -102,11 +105,15 @@
 	.hero-contant h2 {
         font-size: 30px;
     }
+    .hero-contant p {
+        font-size: 13px;
+    }
     .hero-area {
         height: 470px;
     }
 	.feature-herader p {
         padding: 0;
+        font-size: 14px;
     }
     .describe-img {
         text-align: center;
@@ -118,29 +125,65 @@
         width: 100%;
         margin-bottom: 30px;
     }
+    .timeline-box {
+        position: inherit; 
+    }
     .timeline-box-right.timeline-box {
         position: inherit;
         right: inherit;
         margin-top: 0;
     }
+    
     .timeline-t-margin {
         margin-top: 0;
     }
+    .contact-area {
+        margin-top: 27px;
+    }
 }
 
-@media (min-width:480px) and (max-width: 767px){
-    .feature-area {
+@media (min-width:350px) and (max-width: 767px){
+    .hero-btn a {
+        padding: 10px 8px;
+        font-size: 12px;
+    }
+	.feature-area {
         padding-bottom: 34px;
     }
 	.feature-herader {
         margin-bottom: 45px;
         margin-top: -25px;
     }
+    .feature-herader h2 {
+        font-size: 25px;
+    }
+    .feature-herader > .using-p {
+        padding-top: 4px;
+    }
 	.fewture-box {
         margin-bottom: 16px;
     }
     .describe-feature-are {
         padding-top: 45px;
+    }
+    .client-area {
+        margin-top: 40px;
+    }
+	.pricing-area {
+        margin-top: 72px;
+    }
+    .timeline-area {
+        margin-top: 50px;
+        overflow: inherit;
+    }
+    .timeline-main {
+        margin-top: -11px;
+    }
+    .client-area {
+        margin-top: 56px;
+    }
+    .footer {
+        margin-top: -20px;
     }
 }
 
