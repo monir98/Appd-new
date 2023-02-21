@@ -230,6 +230,7 @@ body {
     font-size: 15px;
     color: #6b6565;
     padding: 0px 205px;
+    margin-top: 36px;
 }
 .fewture-box {
     text-align: center;
@@ -351,7 +352,7 @@ body {
 }
 .feature-herader > .using-p {
     line-height: 27px;
-    padding-top: 30px;
+    padding-top: 6px;
 }
 .usign-box {
     text-align: left;
@@ -493,9 +494,11 @@ button.owl-dot {
     height: 0;
     border-style: solid;
     border-width: 0 41px 35px 40px;
-    border-color: transparent transparent rgb(27, 26, 26); transparent;
+    border-color: transparent transparent rgb(27, 26, 26);
+    transparent: ;
     top: -35px;
-    left: 45%;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .client-contant h2 {
     font-size: 20px;
@@ -620,6 +623,7 @@ button.owl-dot {
     padding: 12px 20px;
     position: relative;
     transition: .4s;
+    left: 6%;
 }
 .timeline-box:after {
     position: absolute;
@@ -648,6 +652,7 @@ button.owl-dot {
     right: 364px;
     position: absolute;
     margin-top: 86px;
+    left: auto;
 }
 .timeline-box-right.timeline-box:after {
     left: -96%;
